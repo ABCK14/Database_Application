@@ -59,11 +59,6 @@
   color: black;
 }
 
-/* Style the "active" element to highlight the current page */
-.topnav a.active {
-  background-color: #2196F3;
-  color: white;
-}
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
@@ -88,4 +83,19 @@
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  float:right;
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
